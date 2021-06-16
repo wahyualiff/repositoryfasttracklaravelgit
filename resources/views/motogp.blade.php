@@ -93,6 +93,68 @@
             </div>
         </div>
       </div>
+      <br> 
+      <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="{{asset('storage/pc1.jpg')}}" alt="" style="height: 250px; object-fit:contain; width:100%" >
+                </div>
+                <div class="card-body">
+                    Chelsea UCL 2021 Champions Graphic T-Shirt
+                    <br>
+                    Harga : £18.00
+                    <br> <br>
+                    <input type="button" value="Beli" class="btn btn-primary">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+              <div class="card-img-top">
+                  <img src="{{asset('storage/pc1.jpg')}}" alt="" style="height: 250px; object-fit:contain; width:100%" >
+              </div>
+              <div class="card-body">
+                  Chelsea UCL 2021 Champions Graphic T-Shirt
+                  <br>
+                  Harga : £18.00
+                  <br> <br>
+                  <input type="button" value="Beli" class="btn btn-primary">
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+            <div class="card-img-top">
+                <img src="{{asset('storage/pc1.jpg')}}" alt="" style="height: 250px; object-fit:contain; width:100%" >
+            </div>
+            <div class="card-body">
+                Chelsea UCL 2021 Champions Graphic T-Shirt
+                <br>
+                Harga : £18.00
+                <br> <br>
+                <input type="button" value="Beli" class="btn btn-primary">
+            </div>
+        </div>
+    </div>
+
+      <div class="col-md-3">
+      <div class="card">
+          <div class="card-img-top">
+              <img src="{{asset('storage/pc1.jpg')}}" alt="" style="height: 250px; object-fit:contain; width:100%" >
+          </div>
+          <div class="card-body">
+              Chelsea UCL 2021 Champions Graphic T-Shirt
+              <br>
+              Harga : £18.00
+              <br> <br>
+              <input type="button" value="Beli" class="btn btn-primary">
+          </div>
+      </div>
+      </div>
+      </div>
   </main>
 </body>
 @endsection
