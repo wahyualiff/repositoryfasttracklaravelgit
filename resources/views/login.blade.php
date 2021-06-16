@@ -9,11 +9,11 @@
             </div>
             <div class="login-box-body">
                 <p class="login-box-msg" align="center">Masukan username dan password Anda</p>
-                <div class="form-group has-feedback">
+                <div class="form-group my-3 has-feedback">
                     <input type="text" name="username" class="form-control" placeholder="Username">
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 </div>
-                <div class="form-group has-feedback">
+                <div class="form-group my-3 has-feedback">
                     <input type="password" name="password" class="form-control" placeholder="Password">
                     <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                 </div>
