@@ -10,10 +10,10 @@
                         <form class="form-signin" method="POST" action="#" enctype="multipart/form-data" style="border: none;">
                             <h3 class="login-text"><center><b>Silahkan Registrasi.</b></center></h3>
                             <input class="form-control my-3" type="text" name="nama" placeholder="Nama Lengkap" required/>
-                            <input class="form-control" type="text" name="email" placeholder="Email" required/>
-                            <input class="form-control" type="text" name="username" placeholder="Username" required/>
-                            <input class="form-control" type="password" name="password" placeholder="Password" required/>
-                            <input class="form-control" type="password" name="konfirmasi_password" placeholder="Konfirmasi Password" required/>
+                            <input class="form-control my-3" type="text" name="email" placeholder="Email" required/>
+                            <input class="form-control my-3" type="text" name="username" placeholder="Username" required/>
+                            <input class="form-control my-3" type="password" name="password" placeholder="Password" required/>
+                            <input class="form-control my-3" type="password" name="konfirmasi_password" placeholder="Konfirmasi Password" required/>
                             <button class="btn btn-primary" type="submit" style="padding: 14px 20px; margin-top: 20px;">Daftar</button>
                         </form>
                     </div>
