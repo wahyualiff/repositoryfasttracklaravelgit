@@ -44,6 +44,7 @@
                       Harga : £18.00
                       <br> <br>
                       <input type="button" value="Beli" class="btn btn-primary">
+                      <input type="button" value="Detail" class="btn btn-success">
                   </div>
               </div>
           </div>
@@ -59,6 +60,7 @@
                     Harga : £20.00
                     <br> <br>
                     <input type="button" value="Beli" class="btn btn-primary">
+                    <input type="button" value="Detail" class="btn btn-success">
                 </div>
             </div>
         </div>
@@ -74,6 +76,7 @@
                     Harga : £50.00
                     <br><br>
                     <input type="button" value="Beli" class="btn btn-primary">
+                    <input type="button" value="Detail" class="btn btn-success">
                 </div>
             </div>
         </div>
@@ -89,6 +92,7 @@
                     Harga : £50.00
                     <br> <br>
                     <input type="button" value="Beli" class="btn btn-primary">
+                    <input type="button" value="Detail" class="btn btn-success">
                 </div>
             </div>
         </div>
@@ -106,6 +110,7 @@
                     Harga : £18.00
                     <br> <br>
                     <input type="button" value="Beli" class="btn btn-primary">
+                    <input type="button" value="Detail" class="btn btn-success">
                 </div>
             </div>
         </div>
@@ -121,6 +126,7 @@
                   Harga : £18.00
                   <br> <br>
                   <input type="button" value="Beli" class="btn btn-primary">
+                  <input type="button" value="Detail" class="btn btn-success">
               </div>
           </div>
       </div>
@@ -136,6 +142,7 @@
                 Harga : £18.00
                 <br> <br>
                 <input type="button" value="Beli" class="btn btn-primary">
+                <input type="button" value="Detail" class="btn btn-success">
             </div>
         </div>
     </div>
@@ -151,6 +158,7 @@
               Harga : £18.00
               <br> <br>
               <input type="button" value="Beli" class="btn btn-primary">
+              <input type="button" value="Detail" class="btn btn-success">
           </div>
       </div>
       </div>
