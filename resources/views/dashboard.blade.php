@@ -21,7 +21,11 @@
                         <td>{{$product->deskripsi}}</td>
                         <td>
                             <a href="{{route('motor.edit', $product->id)}}" class="btn btn-warning">Edit</a>
-                            <input type="button" value="Delete" class="btn btn-danger">
+                            <form action="{{route('motor.destroy', $product->id)}}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger">Hapus</button>
+                            </form>
                         </td>
                     </tr>
                     @endforeach

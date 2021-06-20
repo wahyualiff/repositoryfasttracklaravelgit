@@ -79,13 +79,17 @@ class MotorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, MotorController $motor)
+    public function update(Request $request, $id)
     {
-        //
-        $request->validate([
-            'title'     => 'required',
-            'content'   => 'required',
-        ]);
+        // Edit Produk
+        $dataProduct = Product::find($id);
+
+        $dataProduct->kode_produk = $request->KodeProduk;
+        $dataProduct->nama = $request->nama;
+        $dataProduct->deskripsi = $request->desc;
+        $dataProduct->save();
+
+        return redirect()->route('motor.index');
     }
 
     /**
@@ -96,6 +100,10 @@ class MotorController extends Controller
      */
     public function destroy($id)
     {
-        //
+        // Hapus
+        $dataProduct = Product::find($id);
+        $dataProduct->delete();
+
+        return redirect()->route('motor.index');
     }
 }

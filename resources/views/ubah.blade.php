@@ -4,7 +4,9 @@
     <div class="card">
         <div class="card-body">
             <h1>Edit Produk</h1>
-            <form action="#" method="POST">
+            <form action="{{route('motor.update', $dataUbah->id) }}" method="POST">
+                @csrf
+                @method('PUT')
                 <ul class="list-group">
                     Kode Produk <input type="text" name="KodeProduk" value="{{$dataUbah->kode_produk}}" required>
                     Nama <input type="text" name="nama" value="{{$dataUbah->nama}}" required>
