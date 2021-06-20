@@ -4,11 +4,12 @@
     <div class="card">
         <div class="card-body">
             <h1>Tambah Produk</h1>
-            <form action="#" method="POST">
+            <form action="{{route('motor.store')}}" method="POST">
+                @csrf
                 <ul class="list-group">
-                    Produk <input type="text" name="produk" required>
-                    Harga <input type="text" name="harga" required>
-                    Gambar <input type="text" name="gambar" required>
+                    Kode Produk <input type="text" name="KodeProduk" required>
+                    Nama <input type="text" name="nama" required>
+                    Deskripsi <input type="text" name="desc" required>
                 </ul>
                 <hr>
                 <a href="{{route('motor.index')}}" class="btn btn-primary">Kembali</a>
