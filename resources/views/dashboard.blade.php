@@ -9,22 +9,22 @@
             <a href="{{route("motor.create")}}">Tambah Produk</a>
                 <table class="table table-bordered table-striped">
                     <tr>
-                        <th>Produk</th>
-                        <th>Harga</th>
-                        <th>Gambar</th>
+                        <th>Kode Produk</th>
+                        <th>Nama</th>
+                        <th>Deskripsi</th>
                         <th>Aksi</th>
                     </tr>
+                    @foreach ($products as $product)
                     <tr>
-                        <td>Kaos Polo</td>
-                        <td>£18.00</td>
-                        <td>
-                            <center><img src="{{asset('storage/pc1.jpg')}}" alt="" style="height: 100px; width: 100px;" >
-                        </td>
+                        <td>{{$product->kode_produk}}</td>
+                        <td>{{$product->nama}}</td>
+                        <td>{{$product->deskripsi}}</td>
                         <td>
                             <input type="button" value="Edit" class="btn btn-warning">
                             <input type="button" value="Delete" class="btn btn-danger">
                         </td>
                     </tr>
+                    @endforeach
                 </table>
         </div>
     </div>

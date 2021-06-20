@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class MotorController extends Controller
@@ -14,7 +15,8 @@ class MotorController extends Controller
     public function index()
     {
         // Dashboard
-        return view('dashboard');
+        $dataProduk = Product::all();
+        return view('dashboard', ["products" => $dataProduk]);
     }
 
     /**

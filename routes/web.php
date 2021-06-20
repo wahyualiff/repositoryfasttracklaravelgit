@@ -56,7 +56,10 @@ Route::get('/identitas', [PageController::class, 'ktp']);
 Route::get('/suratim', [PageController::class, 'sim']);
 Route::get('/kuis', [PageController::class, 'sesi3']);
 
-Route::get('/login', [PageController::class, 'menu_login']);
 Route::get('/registrasi', [PageController::class, 'menu_regis']);
 
 Route::resource('motor', (MotorController::class));
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
