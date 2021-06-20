@@ -6,9 +6,9 @@
             <h1>Edit Produk</h1>
             <form action="#" method="POST">
                 <ul class="list-group">
-                    Produk <input type="text" name="produk" value="jersey" required>
-                    Harga <input type="text" name="harga" required>
-                    Gambar <input type="text" name="gambar" required>
+                    Kode Produk <input type="text" name="KodeProduk" value="{{$dataUbah->kode_produk}}" required>
+                    Nama <input type="text" name="nama" value="{{$dataUbah->nama}}" required>
+                    Deskripsi <input type="text" name="desc" value="{{$dataUbah->deskripsi}}" required>
                 </ul>
                 <hr>
                 <a href="{{route('motor.index')}}" class="btn btn-primary">Kembali</a>

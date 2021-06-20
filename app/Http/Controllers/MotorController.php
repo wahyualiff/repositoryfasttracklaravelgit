@@ -67,7 +67,9 @@ class MotorController extends Controller
     public function edit($id)
     {
         // edit produk
-        return view('ubah');
+        $dataProduct = Product::find($id);
+
+        return view('ubah', ["dataUbah" => $dataProduct]);
     }
 
     /**
